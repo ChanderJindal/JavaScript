@@ -6,3 +6,5 @@ abc(); // function is called
 
 var a = 10;
 a; // <- only space
+
+console.log(module)
