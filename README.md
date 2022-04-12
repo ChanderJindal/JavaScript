@@ -13,3 +13,8 @@ node <program name>.js
 on cmd
 
 normal run on vs isn't working well
+
+
+TIP:- With 
+jshint <file name>.js
+you can debug
