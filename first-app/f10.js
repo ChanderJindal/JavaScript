@@ -21,4 +21,10 @@ emitter.emit('Example1')
 emitter.addListener('Example1',function(){
     console.log("Yeah, ones after the emitter get no response, unless called again.")
 })
-emitter.emit('Example1')
+
+emitter.on('Example1',function(obj){
+    console.log("Yeah so, the arguments are possible too. " + obj)
+    console.log("Yeah so, the arguments are possible too. " , obj)
+})
+
+emitter.emit('Example1',{name:"abc" , number :10})
